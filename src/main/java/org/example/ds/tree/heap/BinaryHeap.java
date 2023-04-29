@@ -1,5 +1,6 @@
 package org.example.ds.tree.heap;
 
+/*Also known as priority queue, MaxMinHeap*/
 public class BinaryHeap {
 
     int sizeOfHeap;

@@ -13,7 +13,7 @@ public class WeightedNode implements Comparable<WeightedNode>{
     public WeightedNode parent;
     public int distance;
 
-    WeightedNode(String name, int index){
+    public WeightedNode(String name, int index){
         this.name = name;
         this.index = index;
         this.parent = null;

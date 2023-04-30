@@ -5,9 +5,9 @@ import java.util.PriorityQueue;
 
 public class WeightedGraph {
 
-    ArrayList<WeightedNode> nodeList;
+    public ArrayList<WeightedNode> nodeList;
 
-    WeightedGraph(ArrayList<WeightedNode> nodeList){
+    public WeightedGraph(ArrayList<WeightedNode> nodeList){
         this.nodeList = nodeList;
     }
 
@@ -43,7 +43,7 @@ public class WeightedGraph {
         }
     }
 
-    private void pathToPrint(WeightedNode node) {
+    public void pathToPrint(WeightedNode node) {
         if(node.parent!= null)
             pathToPrint(node.parent);
         System.out.print(node.name+" ");

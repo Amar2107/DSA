@@ -1,6 +1,6 @@
 package org.example.ds.graph.bellman;
 
-import org.example.ds.graph.dijkstra.WeightedNode;
+import org.example.ds.graph.node.WeightedNode;
 
 import java.util.ArrayList;
 

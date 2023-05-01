@@ -1,6 +1,6 @@
 package org.example.ds.graph.prims;
 
-import org.example.ds.graph.dijkstra.WeightedNode;
+import org.example.ds.graph.node.WeightedNode;
 
 import java.util.ArrayList;
 
@@ -25,7 +25,7 @@ public class Main {
 
         System.out.println("Running {Prims} algo");
 
-        graph.prims(graph.nodeList.get(0));
+        graph.prims(graph.nodeList.get(4));
 
     }
 }

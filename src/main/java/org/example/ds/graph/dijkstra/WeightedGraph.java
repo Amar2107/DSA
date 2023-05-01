@@ -1,5 +1,7 @@
 package org.example.ds.graph.dijkstra;
 
+import org.example.ds.graph.node.WeightedNode;
+
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 

@@ -1,6 +1,6 @@
 package org.example.ds.graph.kruskal;
 
-import org.example.ds.graph.dijkstra.WeightedNode;
+import org.example.ds.graph.node.WeightedNode;
 import org.example.ds.graph.disjoint.DisjointSet;
 
 import java.util.ArrayList;

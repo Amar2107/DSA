@@ -1,6 +1,6 @@
 package org.example.ds.graph.disjoint;
 
-import org.example.ds.graph.dijkstra.WeightedNode;
+import org.example.ds.graph.node.WeightedNode;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package org.example.ds.graph.dijkstra;
+package org.example.ds.graph.node;
 
 import org.example.ds.graph.disjoint.DisjointSet;
 

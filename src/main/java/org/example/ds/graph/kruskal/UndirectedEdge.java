@@ -1,6 +1,6 @@
 package org.example.ds.graph.kruskal;
 
-import org.example.ds.graph.dijkstra.WeightedNode;
+import org.example.ds.graph.node.WeightedNode;
 
 public class UndirectedEdge {
     public WeightedNode first;

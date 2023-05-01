@@ -18,23 +18,19 @@ public class Main {
         FloydWarshall graph = new FloydWarshall(al);
 
         /*
-         *         B ---3---- E
-         *      2 /  \       / \ 9
-         *       /    1\   /4   \
-         *      A        D      G
-         *      \              /
-         *     5 \            /7
-         *        C----8-----F
-         *
+        *     B------2---D
+        *     |    \     | 9
+         *    |    1  \  |
+         *    A----4---C
          *
          * */
 
-        graph.addWeightedDirectionNode(0, 3, 1); // A -> B 2
-        graph.addWeightedDirectionNode(0, 1, 8); // A -> C 5
-        graph.addWeightedDirectionNode(1, 2, 1); // B -> C 6
-        graph.addWeightedDirectionNode(2, 0, 4); // B -> D 1
-        graph.addWeightedDirectionNode(3, 1, 2); // B -> E 3
-        graph.addWeightedDirectionNode(3, 2, 9); // C -> F 8
+        graph.addWeightedDirectionNode(0, 3, 1);
+        graph.addWeightedDirectionNode(0, 1, 8);
+        graph.addWeightedDirectionNode(1, 2, 1);
+        graph.addWeightedDirectionNode(2, 0, 4);
+        graph.addWeightedDirectionNode(3, 1, 2);
+        graph.addWeightedDirectionNode(3, 2, 9);
 //        graph.addWeightedDirectionNode(3, 4, 4); // D -> E 4
 //        graph.addWeightedDirectionNode(5, 6, 7); // F -> G 7
 //        graph.addWeightedDirectionNode(4, 6, 9); // E -> G 9

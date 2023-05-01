@@ -1,4 +1,4 @@
-package org.example.ds.graph.kruskalprim;
+package org.example.ds.graph.kruskal;
 
 import org.example.ds.graph.dijkstra.WeightedNode;
 

@@ -1,4 +1,4 @@
-package org.example.ds.graph.kruskalprim;
+package org.example.ds.graph.kruskal;
 
 import org.example.ds.graph.dijkstra.WeightedNode;
 
@@ -7,7 +7,7 @@ public class UndirectedEdge {
     public WeightedNode second;
     public int weight;
 
-    UndirectedEdge(WeightedNode first, WeightedNode second, int weight){
+    public UndirectedEdge(WeightedNode first, WeightedNode second, int weight){
         this.first = first;
         this.second = second;
         this.weight = weight;

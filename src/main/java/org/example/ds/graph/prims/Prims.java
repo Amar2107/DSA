@@ -1,7 +1,6 @@
 package org.example.ds.graph.prims;
 
 import org.example.ds.graph.node.WeightedNode;
-import org.example.ds.graph.kruskal.UndirectedEdge;
 
 import java.util.ArrayList;
 import java.util.PriorityQueue;
@@ -17,9 +16,8 @@ public class Prims {
 
 
     public void addUndirectedWeightedEdge(int index1, int index2, int weight){
-        UndirectedEdge edge = new UndirectedEdge(nodeList.get(index1), nodeList.get(index2), weight);
-        WeightedNode first = edge.first;
-        WeightedNode second = edge.second;
+        WeightedNode first = nodeList.get(index1);
+        WeightedNode second = nodeList.get(index2);
         first.neighbors.add(second);
         second.neighbors.add(first);
         first.weightMap.put(second,weight);

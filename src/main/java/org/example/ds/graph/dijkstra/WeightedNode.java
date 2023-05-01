@@ -1,5 +1,7 @@
 package org.example.ds.graph.dijkstra;
 
+import org.example.ds.graph.disjoint.DisjointSet;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -8,6 +10,7 @@ public class WeightedNode implements Comparable<WeightedNode>{
 
     public String name;
     public int index;
+    public DisjointSet set;
     public ArrayList<WeightedNode> neighbors = new ArrayList<>();
     public Map<WeightedNode,Integer> weightMap = new HashMap<>();
     public WeightedNode parent;
